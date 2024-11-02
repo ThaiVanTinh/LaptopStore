@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "iAkYP+Oy+Ng=",
+  "dgSpecHash": "Cwa9OZVRYvU=",
   "success": true,
   "projectFilePath": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj",
   "expectedPackageFiles": [
@@ -30,7 +30,23 @@
     "C:\\Users\\trhao\\.nuget\\packages\\microsoft.jsinterop.webassembly\\8.0.10\\microsoft.jsinterop.webassembly.8.0.10.nupkg.sha512",
     "C:\\Users\\trhao\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.10\\microsoft.net.illink.tasks.8.0.10.nupkg.sha512",
     "C:\\Users\\trhao\\.nuget\\packages\\microsoft.net.sdk.webassembly.pack\\8.0.10\\microsoft.net.sdk.webassembly.pack.8.0.10.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.buttons\\23.1.36\\syncfusion.blazor.buttons.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.core\\23.1.36\\syncfusion.blazor.core.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.data\\23.1.36\\syncfusion.blazor.data.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.dropdowns\\23.1.36\\syncfusion.blazor.dropdowns.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.inputs\\23.1.36\\syncfusion.blazor.inputs.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.lists\\23.1.36\\syncfusion.blazor.lists.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.navigations\\23.1.36\\syncfusion.blazor.navigations.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.notifications\\23.1.36\\syncfusion.blazor.notifications.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.popups\\23.1.36\\syncfusion.blazor.popups.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.spinner\\23.1.36\\syncfusion.blazor.spinner.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.splitbuttons\\23.1.36\\syncfusion.blazor.splitbuttons.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.blazor.themes\\23.1.36\\syncfusion.blazor.themes.23.1.36.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\syncfusion.licensing\\23.1.36\\syncfusion.licensing.23.1.36.nupkg.sha512",
     "C:\\Users\\trhao\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\trhao\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\trhao\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.10\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.10.nupkg.sha512"
   ],
   "logs": []

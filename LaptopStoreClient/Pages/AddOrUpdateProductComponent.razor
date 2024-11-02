@@ -48,3 +48,13 @@
 
     async Task HandleSaveProduct()
 }
+
+
+
+    private async void SetMessageDialog()
+    {
+        await messageDialog!.ShowMessage();
+        ShowBusyButton = false;
+        ShowSaveButton = !ShowBusyButton;
+        StateHasChanged();
+    }
