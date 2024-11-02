@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("LaptopStoreSharedLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5162bcc6b2362060aabf29b1881234f77afe881f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1d2bb505122ce7e2ba8a4fdb890c01cd6278767")]
 [assembly: System.Reflection.AssemblyProductAttribute("LaptopStoreSharedLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("LaptopStoreSharedLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
