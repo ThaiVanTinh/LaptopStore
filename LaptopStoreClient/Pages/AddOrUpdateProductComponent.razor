@@ -65,8 +65,12 @@
             await resizeImage.OpenReadStream().ReadAsync(buffer);
             var imageData = $"data:{format};base64,{Convert.ToBase64String(buffer)}";
             ImageUploadMessage = "";
-
+            MyProduct.Base64Img = imageData;
+            imageData = "";
+            return;
         }
+        ImageUploadMessage = "PNG file needed";
+        return;
     }
 }
 
