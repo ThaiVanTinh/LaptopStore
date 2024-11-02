@@ -24,9 +24,9 @@
                         </div>
                         <div class="form-group mt-3">
                             <label class="form-label @(ImageUploadMessage==""?"":"text-danger")">
-                                @(ImageUploadMessage == "" ? "Upload Image":ImageUploadMessage)
+                                @(ImageUploadMessage == "" ? "Upload Image" : ImageUploadMessage)
                                 </label>
-                            <InputFile class="form-control" OnChange="Upload Image"></InputFile>
+                            <InputFile class="form-control" OnChange="UploadImage"></InputFile>
                         </div>
                         <div class="form-group mt-3">
                             <label class="form-label">Description</label>
@@ -53,21 +53,22 @@
     Product MyProduct = new();
     string ImageUploadMessage = "";
     async Task HandleSaveProduct()
-<<<<<<< HEAD
-}
-=======
+<<<<<<< HEA
+    string ImageUploadMessage = "";
+    async Task UploadImage(InputFileChangeEventArgs e)
     {
-        ShowSaveButton = false;
+        if(e.File.Name.ToLower().Contains(".png"))
+        {
+            var format = "image/png";
+            var resizeImage = await e.File.RequestImageFileAsync(format, 300, 300);
+            var buffer = new byte[resizeImage.Size];
+            await resizeImage.OpenReadStream().ReadAsync(buffer);
+            var imageData = $"data:{format};base64,{Convert.ToBase64String(buffer)}";
+            ImageUploadMessage = "";
+
+        }
     }
 }
 
 
-
-    private async void SetMessageDialog()
-    {
-        await messageDialog!.ShowMessage();
-        ShowBusyButton = false;
-        ShowSaveButton = !ShowBusyButton;
-        StateHasChanged();
-    }
->>>>>>> 5162bcc6b2362060aabf29b1881234f77afe881f
+  
