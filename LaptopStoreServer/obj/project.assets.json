@@ -5945,11 +5945,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\LaptopStore\\LaptopStoreServer\\LaptopStoreServer.csproj",
+      "projectUniqueName": "D:\\New folder\\LaptopStore\\LaptopStoreServer\\LaptopStoreServer.csproj",
       "projectName": "LaptopStoreServer",
-      "projectPath": "D:\\LaptopStore\\LaptopStoreServer\\LaptopStoreServer.csproj",
+      "projectPath": "D:\\New folder\\LaptopStore\\LaptopStoreServer\\LaptopStoreServer.csproj",
       "packagesPath": "C:\\Users\\trhao\\.nuget\\packages\\",
-      "outputPath": "D:\\LaptopStore\\LaptopStoreServer\\obj\\",
+      "outputPath": "D:\\New folder\\LaptopStore\\LaptopStoreServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -5971,11 +5971,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "D:\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj": {
-              "projectPath": "D:\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj"
+            "D:\\New folder\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj": {
+              "projectPath": "D:\\New folder\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj"
             },
-            "D:\\LaptopStore\\LaptopStoreSharedLibrary\\LaptopStoreSharedLibrary.csproj": {
-              "projectPath": "D:\\LaptopStore\\LaptopStoreSharedLibrary\\LaptopStoreSharedLibrary.csproj"
+            "D:\\New folder\\LaptopStore\\LaptopStoreSharedLibrary\\LaptopStoreSharedLibrary.csproj": {
+              "projectPath": "D:\\New folder\\LaptopStore\\LaptopStoreSharedLibrary\\LaptopStoreSharedLibrary.csproj"
             }
           }
         }

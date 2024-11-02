@@ -21,3 +21,15 @@ D:\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\LaptopStoreSharedLibrar
 D:\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\refint\LaptopStoreSharedLibrary.dll
 D:\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\LaptopStoreSharedLibrary.pdb
 D:\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\ref\LaptopStoreSharedLibrary.dll
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\bin\Debug\net8.0\LaptopStoreSharedLibrary.deps.json
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\bin\Debug\net8.0\LaptopStoreSharedLibrary.dll
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\bin\Debug\net8.0\LaptopStoreSharedLibrary.pdb
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\LaptopStoreSharedLibrary.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\LaptopStoreSharedLibrary.AssemblyInfoInputs.cache
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\LaptopStoreSharedLibrary.AssemblyInfo.cs
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\LaptopStoreSharedLibrary.csproj.CoreCompileInputs.cache
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\LaptopStoreSharedLibrary.sourcelink.json
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\LaptopStoreSharedLibrary.dll
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\refint\LaptopStoreSharedLibrary.dll
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\LaptopStoreSharedLibrary.pdb
+D:\New folder\LaptopStore\LaptopStoreSharedLibrary\obj\Debug\net8.0\ref\LaptopStoreSharedLibrary.dll

@@ -3,21 +3,13 @@ using LaptopStoreSharedLibrary.Models;
 using LaptopStoreSharedLibrary.Response;
 
 using Microsoft.AspNetCore.Mvc;
-;
 
 namespace LaptopStoreServer.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ProductController : ControllerBase
+    public class ProductController(IProduct productService) : ControllerBase
     {
-        private readonly IProduct productService;
-        
-        public ProductController(IProduct productService)
-        {
-            this.productService = productService;
-        }
-
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetAllProducts(bool featured)
         {

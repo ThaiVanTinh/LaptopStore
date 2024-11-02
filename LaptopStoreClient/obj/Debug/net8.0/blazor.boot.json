@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "LaptopStoreClient",
   "resources": {
-    "hash": "sha256-R/hkRc1Pi+xuI58o7fA64AyYT8QQiKt8YCCDsx4R0eo=",
+    "hash": "sha256-7kAAvjn2l2d2wv1cZLxE0iDjDeIR2qshwU0qghjUs3M=",
     "jsModuleNative": {
       "dotnet.native.8.0.10.niuzg0suou.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
@@ -39,6 +39,19 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-pVrYOTfjb2ITls3LKIByW1t8jwOAWFhmkIVDewtJ1GE=",
       "Microsoft.JSInterop.wasm": "sha256-t9q43mL+SUSnDmA3kXTLQ42nvlXwYmnKxyqFFPYcifs=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-AQCuGvuEaOGJIRllBm0t1I9jKw+kNMrILxGeDDgzgzY=",
+      "Syncfusion.Blazor.Buttons.wasm": "sha256-yCOFEs6vHwWIDUefxLWXEE21CeZ6dYB3wwlji2uvK9I=",
+      "Syncfusion.Blazor.Core.wasm": "sha256-7EvuVHJlQpXR5FL9w0Vx9Zlkp5oXzySEiGDzxJUiawY=",
+      "Syncfusion.Blazor.Data.wasm": "sha256-02WxPgvdSAp+e6LEiRSwsA/0TNsKzDycfiNBby3KlwY=",
+      "Syncfusion.Blazor.DropDowns.wasm": "sha256-GfYC2xXLe8gikO6aEkWCH+5T79pZXf+Zq83Iq9hwLUs=",
+      "Syncfusion.Blazor.Inputs.wasm": "sha256-wYxXMPA6s++jrlaKJpVymj3Aekj2XyfI8v+CbPweyDw=",
+      "Syncfusion.Blazor.Lists.wasm": "sha256-/m9GvFRg43/tQF94dUyQENtPL6sVAGCfEek1cahzvFk=",
+      "Syncfusion.Blazor.Navigations.wasm": "sha256-fzsHZnHH4gs1ME+F74s0QlOAgPMWaZJac7UBleyeg7k=",
+      "Syncfusion.Blazor.Notifications.wasm": "sha256-VRiFtiXCZxEOH3coDiCXowzLe1wzbeU4v91682Zg7ns=",
+      "Syncfusion.Blazor.Popups.wasm": "sha256-QKUrC+5UxrTHKBSt6GK8FSF87FiamWIFKoAErjhHcxk=",
+      "Syncfusion.Blazor.Spinner.wasm": "sha256-YF8k23SqUeZZmmKUxwvTh665mTR7ZKVJy/hm6JBqwsc=",
+      "Syncfusion.Blazor.SplitButtons.wasm": "sha256-7QAky7kaPJSyos5JyNbVCJoFcp9TsDRxq7fFGLXBNi8=",
+      "Syncfusion.Blazor.Themes.wasm": "sha256-idiWwZY/Q6/VCqXKGATRIhmMO1t2hylanrEHF8lvjAk=",
+      "Syncfusion.Licensing.wasm": "sha256-dloe5B3y7LTiCGm4V4Hh5M4W/NIPTm0raHeA0PNXs4I=",
       "System.IO.Pipelines.wasm": "sha256-JqVBy6SV+3qk+IK3VJiyIDt9CsVk6b1/ytTXmrI4mTM=",
       "Microsoft.CSharp.wasm": "sha256-bqu74vg/La1Ub2pVw0G0r6S6XMaAgbrpFYRK6yHXlo4=",
       "Microsoft.VisualBasic.Core.wasm": "sha256-tv/7FnHANUZX7lUT4coWbRvG2fJUgCrJiCcOYFEuNXY=",
@@ -208,12 +221,12 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-      "LaptopStoreSharedLibrary.wasm": "sha256-fYNTFSX9VGeC4YxHBD1rnzA3vHMYHvesMQIL0H2aumA=",
-      "LaptopStoreClient.wasm": "sha256-pkNfCK3pNPvliKx3GWhOo1kk8Jp2Bw4T/5Dclyn5hBs="
+      "LaptopStoreSharedLibrary.wasm": "sha256-JnMkQpnijahNdJg3jTLeTuiwYhn1IoUkg4PoKI4xUb4=",
+      "LaptopStoreClient.wasm": "sha256-aBqXpL1obkkb6M/BguBXGXiKOH9jR1pqn4rIAe36iq8="
     },
     "pdb": {
-      "LaptopStoreSharedLibrary.pdb": "sha256-6E5C/Yz6kQQaPBRf45+V0W0Uuv8ra5UZa2WOnsvOWD4=",
-      "LaptopStoreClient.pdb": "sha256-aklH+eLWAJVqkn5c8WPrM6Id9PWTF0U3URjKBrAkie0="
+      "LaptopStoreSharedLibrary.pdb": "sha256-Hown8L3DzoYpVl3OSEG5dzbKoXRoKmN1ajteIspIGJA=",
+      "LaptopStoreClient.pdb": "sha256-T2v7F/3NvmTaaiTYyvx3SItrYiP4CjTb6fNA48pr/D8="
     }
   },
   "cacheBootResources": true,

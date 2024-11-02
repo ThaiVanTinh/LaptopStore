@@ -1,18 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\LaptopStore\\",
+  "WorkspaceRootPath": "D:\\New folder\\LaptopStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|d:\\laptopstore\\laptopstoreclient\\pages\\addorupdateproductcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|solutionrelative:laptopstoreclient\\pages\\addorupdateproductcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|d:\\new folder\\laptopstore\\laptopstoreclient\\pages\\addorupdateproductcomponents.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|solutionrelative:laptopstoreclient\\pages\\addorupdateproductcomponents.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|d:\\laptopstore\\laptopstoreserver\\responstory\\productresponstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|solutionrelative:laptopstoreserver\\responstory\\productresponstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8E055ABA-EE8A-4AEE-B6FA-DB586FA297B8}|LaptopStoreSharedLibrary\\LaptopStoreSharedLibrary.csproj|d:\\laptopstore\\laptopstoresharedlibrary\\contracts\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8E055ABA-EE8A-4AEE-B6FA-DB586FA297B8}|LaptopStoreSharedLibrary\\LaptopStoreSharedLibrary.csproj|solutionrelative:laptopstoresharedlibrary\\contracts\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|d:\\new folder\\laptopstore\\laptopstoreclient\\services\\clientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|solutionrelative:laptopstoreclient\\services\\clientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,39 +39,28 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AddOrUpdateProductComponent.razor",
-              "DocumentMoniker": "D:\\LaptopStore\\LaptopStoreClient\\Pages\\AddOrUpdateProductComponent.razor",
-              "RelativeDocumentMoniker": "LaptopStoreClient\\Pages\\AddOrUpdateProductComponent.razor",
-              "ToolTip": "D:\\LaptopStore\\LaptopStoreClient\\Pages\\AddOrUpdateProductComponent.razor",
-              "RelativeToolTip": "LaptopStoreClient\\Pages\\AddOrUpdateProductComponent.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAiAAAAAAAAAA==",
+              "Title": "AddOrUpdateProductComponents.razor",
+              "DocumentMoniker": "D:\\New folder\\LaptopStore\\LaptopStoreClient\\Pages\\AddOrUpdateProductComponents.razor",
+              "RelativeDocumentMoniker": "LaptopStoreClient\\Pages\\AddOrUpdateProductComponents.razor",
+              "ToolTip": "D:\\New folder\\LaptopStore\\LaptopStoreClient\\Pages\\AddOrUpdateProductComponents.razor",
+              "RelativeToolTip": "LaptopStoreClient\\Pages\\AddOrUpdateProductComponents.razor",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T13:41:50.715Z",
+              "WhenOpened": "2024-11-02T17:11:17.169Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IProduct.cs",
-              "DocumentMoniker": "D:\\LaptopStore\\LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
-              "RelativeDocumentMoniker": "LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
-              "ToolTip": "D:\\LaptopStore\\LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
-              "RelativeToolTip": "LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:18:56.824Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ProductResponstory.cs",
-              "DocumentMoniker": "D:\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
-              "RelativeDocumentMoniker": "LaptopStoreServer\\Responstory\\ProductResponstory.cs",
-              "ToolTip": "D:\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
-              "RelativeToolTip": "LaptopStoreServer\\Responstory\\ProductResponstory.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwC0AAAABAAAAAAAAAA==",
+              "Title": "ClientServices.cs",
+              "DocumentMoniker": "D:\\New folder\\LaptopStore\\LaptopStoreClient\\Services\\ClientServices.cs",
+              "RelativeDocumentMoniker": "LaptopStoreClient\\Services\\ClientServices.cs",
+              "ToolTip": "D:\\New folder\\LaptopStore\\LaptopStoreClient\\Services\\ClientServices.cs",
+              "RelativeToolTip": "LaptopStoreClient\\Services\\ClientServices.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAmwBIAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:20:45.809Z"
+              "WhenOpened": "2024-11-02T17:09:47.498Z",
+              "EditorCaption": ""
             }
           ]
         }

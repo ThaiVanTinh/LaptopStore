@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "D8m2fHvixkc=",
+  "dgSpecHash": "2dcdDwLqgbs=",
   "success": true,
-  "projectFilePath": "D:\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj",
+  "projectFilePath": "D:\\New folder\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trhao\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\trhao\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",

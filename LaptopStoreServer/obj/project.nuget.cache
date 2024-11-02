@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JPJVpUnrUbE=",
+  "dgSpecHash": "SFVB7bs8y98=",
   "success": true,
-  "projectFilePath": "D:\\LaptopStore\\LaptopStoreServer\\LaptopStoreServer.csproj",
+  "projectFilePath": "D:\\New folder\\LaptopStore\\LaptopStoreServer\\LaptopStoreServer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\trhao\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\trhao\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

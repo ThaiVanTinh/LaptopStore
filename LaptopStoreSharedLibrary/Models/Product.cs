@@ -19,11 +19,11 @@ namespace LaptopStoreSharedLibrary.Models
         [Required]
         public string? ManufacturerName { get; set; }
         
-        [Required]
+        [Required, Range(1, 99999)]
         public decimal Price { get; set; }
         
         [Required, DisplayName("Product Image")]
-        public string? Base64img { get; set; }
+        public string? Base64Img { get; set; }
 
         [Required, Range(1, 99999)]
         public int Quantity { get; set; }

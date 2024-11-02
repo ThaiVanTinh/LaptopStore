@@ -1,5 +1,4 @@
-﻿using LaptopStoreSharedLibrary.Contracts
-
+﻿using LaptopStoreSharedLibrary.Contracts;
 using LaptopStoreSharedLibrary.Models;
 using LaptopStoreSharedLibrary.Response;
 using System.Text.Json.Serialization;
@@ -17,7 +16,7 @@ namespace LaptopStoreClient.Services
 
         private static T DeserializeJsonString<T>(string jsonString) => JsonSerializer.Deserialize<T>(jsonString, JsonOptions())!;
 
-        private static IList<T> DeserializeJsonStringList<T>(string jsonString) => JsonSerializer.Deserialize<IEnumerable<T>>(jsonString, JsonOptions())!;
+        private static IList<T> DeserializeJsonStringList<T>(string jsonString) => JsonSerializer.Deserialize<IList<T>>(jsonString, JsonOptions())!;
 
         private static JsonSerializerOptions JsonOptions()
         {
