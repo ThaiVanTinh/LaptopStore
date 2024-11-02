@@ -25,6 +25,7 @@ namespace LaptopStoreSharedLibrary.Models
         [Required, DisplayName("Product Image")]
         public string? Base64img { get; set; }
 
+        [Required, Range(1, 99999)]
         public int Quantity { get; set; }
 
         public bool Featured { get; set; }

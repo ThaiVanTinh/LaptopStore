@@ -53,7 +53,26 @@
     Product MyProduct = new();
     string ImageUploadMessage = "";
     async Task HandleSaveProduct()
-<<<<<<< HEA
+    {
+        ShowSaveButton = false;
+        ShowBusyButton = !ShowSaveButton;
+        if (string.IsNullOrEmpty(MyProduct.Base64Img))
+        {
+            messageDialog!.SetDialogValues("Warning", "You need choose image!");
+            MessageDialog();
+            return;
+        }
+
+        var (flag, message) = await ProductService.AddProduct(MyProduct);
+        if (flag)
+            messageDialog!.SetDialogValues("Success", message);
+        else
+            messageDialog!.SetDialogValues("Danger", message);
+
+        SetMessageDialog();
+        return;
+    }
+
     string ImageUploadMessage = "";
     async Task UploadImage(InputFileChangeEventArgs e)
     {

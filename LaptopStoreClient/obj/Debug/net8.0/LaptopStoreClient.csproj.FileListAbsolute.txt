@@ -1038,3 +1038,13 @@ D:\TTTN\LaptopStore\LaptopStoreClient\bin\Debug\net8.0\LaptopStoreSharedLibrary.
 D:\TTTN\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\webcil\LaptopStoreSharedLibrary.wasm
 D:\TTTN\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\compressed\nsxiix083l.gz
 D:\TTTN\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\compressed\2729kv6583.gz
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\LaptopStoreClient.csproj.AssemblyReference.cache
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\LaptopStoreClient.GeneratedMSBuildEditorConfig.editorconfig
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\LaptopStoreClient.AssemblyInfoInputs.cache
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\LaptopStoreClient.AssemblyInfo.cs
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\LaptopStoreClient.csproj.CoreCompileInputs.cache
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\LaptopStoreClient.MvcApplicationPartsAssemblyInfo.cache
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\LaptopStoreClient.sourcelink.json
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\LaptopStoreClient.dll
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\refint\LaptopStoreClient.dll
+D:\LaptopStore\LaptopStoreClient\obj\Debug\net8.0\LaptopStoreClient.pdb

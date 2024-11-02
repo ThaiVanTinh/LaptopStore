@@ -3,6 +3,7 @@ using LaptopStoreSharedLibrary.Models;
 using LaptopStoreSharedLibrary.Response;
 
 using Microsoft.AspNetCore.Mvc;
+;
 
 namespace LaptopStoreServer.Controllers
 {
@@ -11,6 +12,7 @@ namespace LaptopStoreServer.Controllers
     public class ProductController : ControllerBase
     {
         private readonly IProduct productService;
+        
         public ProductController(IProduct productService)
         {
             this.productService = productService;
