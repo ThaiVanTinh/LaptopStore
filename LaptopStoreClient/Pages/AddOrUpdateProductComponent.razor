@@ -4,15 +4,39 @@
 <div class="container">
     <div class="row">
         <div class="col-md-6">
-            <EditForm Model="Myproduct" Enhance OnvalidSubmit="HandleSaveProduct">
+            <EditForm Model="MyProduct" Enhance OnvalidSubmit="HandleSaveProduct">
                 <DataAnnotationsValidator/>
                 <ValidationSummary/>
                 <div class="card">
                     <div class="card-header">Add Product</div>
                     <div class="card-body">
+                        <div class="form-group">
+                            <label class="form-label">Name</label>
+                            <InputText @blind-Value="MyProduct.Name" class="form-control"></InputText>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label class="form-label">Price</label>
+                            <InputText @blind-Value="MyProduct.Price" class="form-control"></InputText>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label class="form-label">Quanlity</label>
+                            <InputText @blind-Value="MyProduct.Quanlity" class="form-control"></InputText>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label class="form-label @(ImageUploadMessage==""?"":"text-danger")">
+                                @(ImageUploadMessage == "" ? "" : "Upload Image":ImageUploadMessage)
+                                </label>
+                            <InputFile class="form-control" OnChange="Upload Image"></InputFile>
+                        </div>
+                        <div class="form-group mt-3">
+                            <label class="form-label">Description</label>
+                            <InputTextArea @blind-Value="MyProduct.Description" class="form-control"></InputTextArea>
+                        </div>
                     </div>
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-outline-primary">Save Product</button>
+                        <button type="submit" class="btn btn-outline-primary">
+                            <i class="fa fa-plus"></i>
+                            Save Product</button>
                     </div>
                 </div>
             </EditForm>
@@ -21,4 +45,6 @@
 </div>
 @code {
     Product MyProduct = new();
+
+    async Task HandleSaveProduct()
 }
