@@ -46,8 +46,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ClientServices.cs",
+              "DocumentMoniker": "D:\\LaptopStore\\LaptopStoreClient\\Services\\ClientServices.cs",
+              "RelativeDocumentMoniker": "LaptopStoreClient\\Services\\ClientServices.cs",
+              "ToolTip": "D:\\LaptopStore\\LaptopStoreClient\\Services\\ClientServices.cs",
+              "RelativeToolTip": "LaptopStoreClient\\Services\\ClientServices.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAYwDAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T14:36:28.483Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -89,19 +102,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ClientServices.cs",
-              "DocumentMoniker": "D:\\LaptopStore\\LaptopStoreClient\\Services\\ClientServices.cs",
-              "RelativeDocumentMoniker": "LaptopStoreClient\\Services\\ClientServices.cs",
-              "ToolTip": "D:\\LaptopStore\\LaptopStoreClient\\Services\\ClientServices.cs",
-              "RelativeToolTip": "LaptopStoreClient\\Services\\ClientServices.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAACCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T14:36:28.483Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",

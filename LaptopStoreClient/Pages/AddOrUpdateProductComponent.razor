@@ -1,6 +1,7 @@
 @page "/add-product"
 
 
+
 <div class="container">
     <div class="row">
         <div class="col-md-6">
@@ -48,6 +49,7 @@
         </div>
     </div>
 </div>
+<MessageDialog @ref="messageDialog"></MessageDialog>
 @code {
 
     Product MyProduct = new();
@@ -56,15 +58,32 @@
     {
         ShowSaveButton = false;
         ShowBusyButton = !ShowSaveButton;
+<<<<<<< HEAD
+        if(string.IsNullOrEmpty(MyProduct.Base64Img))
+        {
+            messageDialog!.SetDialogValues("warning", "You need to choose image");
+            SetMessageDialog();
+=======
         if (string.IsNullOrEmpty(MyProduct.Base64Img))
         {
             messageDialog!.SetDialogValues("Warning", "You need choose image!");
             MessageDialog();
+>>>>>>> 37e5c0481dbee5a99927bf71ed822aebdae25533
             return;
         }
 
         var (flag, message) = await ProductService.AddProduct(MyProduct);
         if (flag)
+<<<<<<< HEAD
+            messageDialog!.SetDialogValues("success", message);
+        else
+            messageDialog!.SetDialogValues("danger", message);
+
+        SetMessageDialog();
+        return;
+
+    }
+=======
             messageDialog!.SetDialogValues("Success", message);
         else
             messageDialog!.SetDialogValues("Danger", message);
@@ -74,6 +93,7 @@
     }
 
     string ImageUploadMessage = "";
+>>>>>>> 37e5c0481dbee5a99927bf71ed822aebdae25533
     async Task UploadImage(InputFileChangeEventArgs e)
     {
         if(e.File.Name.ToLower().Contains(".png"))
@@ -90,6 +110,17 @@
         }
         ImageUploadMessage = "PNG file needed";
         return;
+    }
+    MessageDialog? messageDialog;
+    public bool ShowBusyButton { get; set; }
+    public bool ShowSaveButton { get; set; } = true;
+
+    private async void SetMessageDialog()
+    {
+        await messageDialog!.ShowMessage();
+        ShowBusyButton = false;
+        ShowSaveButton = !ShowBusyButton;
+        StateHasChanged();
     }
 }
 
