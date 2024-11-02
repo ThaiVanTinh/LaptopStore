@@ -24,7 +24,7 @@
                         </div>
                         <div class="form-group mt-3">
                             <label class="form-label @(ImageUploadMessage==""?"":"text-danger")">
-                                @(ImageUploadMessage == "" ? "" : "Upload Image":ImageUploadMessage)
+                                @(ImageUploadMessage == "" ? "Upload Image":ImageUploadMessage)
                                 </label>
                             <InputFile class="form-control" OnChange="Upload Image"></InputFile>
                         </div>
@@ -34,9 +34,14 @@
                         </div>
                     </div>
                     <div class="card-footer">
-                        <button type="submit" class="btn btn-outline-primary">
-                            <i class="fa fa-plus"></i>
-                            Save Product</button>
+                        <div class="form-group mt-3">
+                            @if(ShowSaveButton)
+                            {
+                                <button type="submit" class="btn btn-outline-primary"><i class="fa fa-plus"></i>Save Product</button>
+
+                            }
+                            <BusyButtonComponent ShowBusyButton="ShowBusyButton"></BusyButtonComponent>
+                        </div>
                     </div>
                 </div>
             </EditForm>
@@ -44,9 +49,13 @@
     </div>
 </div>
 @code {
+
     Product MyProduct = new();
     string ImageUploadMessage = "";
     async Task HandleSaveProduct()
+<<<<<<< HEAD
+}
+=======
     {
         ShowSaveButton = false;
     }
@@ -61,3 +70,4 @@
         ShowSaveButton = !ShowBusyButton;
         StateHasChanged();
     }
+>>>>>>> 5162bcc6b2362060aabf29b1881234f77afe881f
