@@ -58,23 +58,22 @@
     {
         ShowSaveButton = false;
         ShowBusyButton = !ShowSaveButton;
-<<<<<<< HEAD
+
         if(string.IsNullOrEmpty(MyProduct.Base64Img))
         {
             messageDialog!.SetDialogValues("warning", "You need to choose image");
             SetMessageDialog();
-=======
+
         if (string.IsNullOrEmpty(MyProduct.Base64Img))
         {
             messageDialog!.SetDialogValues("Warning", "You need choose image!");
             MessageDialog();
->>>>>>> 37e5c0481dbee5a99927bf71ed822aebdae25533
             return;
         }
 
         var (flag, message) = await ProductService.AddProduct(MyProduct);
         if (flag)
-<<<<<<< HEAD
+
             messageDialog!.SetDialogValues("success", message);
         else
             messageDialog!.SetDialogValues("danger", message);
@@ -83,7 +82,6 @@
         return;
 
     }
-=======
             messageDialog!.SetDialogValues("Success", message);
         else
             messageDialog!.SetDialogValues("Danger", message);
@@ -93,7 +91,7 @@
     }
 
     string ImageUploadMessage = "";
->>>>>>> 37e5c0481dbee5a99927bf71ed822aebdae25533
+
     async Task UploadImage(InputFileChangeEventArgs e)
     {
         if(e.File.Name.ToLower().Contains(".png"))
