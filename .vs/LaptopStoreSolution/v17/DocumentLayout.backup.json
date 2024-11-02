@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\TTTN\\LaptopStore\\",
+  "WorkspaceRootPath": "D:\\ThaiVanTinh\\LaptopStore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|d:\\tttn\\laptopstore\\laptopstoreserver\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|d:\\thaivantinh\\laptopstore\\laptopstoreserver\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|solutionrelative:laptopstoreserver\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|d:\\tttn\\laptopstore\\laptopstoreserver\\responstory\\productresponstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|d:\\thaivantinh\\laptopstore\\laptopstoreserver\\responstory\\productresponstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|solutionrelative:laptopstoreserver\\responstory\\productresponstory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8E055ABA-EE8A-4AEE-B6FA-DB586FA297B8}|LaptopStoreSharedLibrary\\LaptopStoreSharedLibrary.csproj|d:\\tttn\\laptopstore\\laptopstoresharedlibrary\\contracts\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8E055ABA-EE8A-4AEE-B6FA-DB586FA297B8}|LaptopStoreSharedLibrary\\LaptopStoreSharedLibrary.csproj|d:\\thaivantinh\\laptopstore\\laptopstoresharedlibrary\\contracts\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8E055ABA-EE8A-4AEE-B6FA-DB586FA297B8}|LaptopStoreSharedLibrary\\LaptopStoreSharedLibrary.csproj|solutionrelative:laptopstoresharedlibrary\\contracts\\iproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -40,35 +40,33 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ProductResponstory.cs",
-              "DocumentMoniker": "D:\\TTTN\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
+              "DocumentMoniker": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
               "RelativeDocumentMoniker": "LaptopStoreServer\\Responstory\\ProductResponstory.cs",
-              "ToolTip": "D:\\TTTN\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
+              "ToolTip": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
               "RelativeToolTip": "LaptopStoreServer\\Responstory\\ProductResponstory.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwC0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:20:45.809Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T12:20:45.809Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "IProduct.cs",
-              "DocumentMoniker": "D:\\TTTN\\LaptopStore\\LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
+              "DocumentMoniker": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
               "RelativeDocumentMoniker": "LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
-              "ToolTip": "D:\\TTTN\\LaptopStore\\LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
+              "ToolTip": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
               "RelativeToolTip": "LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:18:56.824Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-02T12:18:56.824Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ProductController.cs",
-              "DocumentMoniker": "D:\\TTTN\\LaptopStore\\LaptopStoreServer\\Controllers\\ProductController.cs",
+              "DocumentMoniker": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "LaptopStoreServer\\Controllers\\ProductController.cs",
-              "ToolTip": "D:\\TTTN\\LaptopStore\\LaptopStoreServer\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Controllers\\ProductController.cs",
               "RelativeToolTip": "LaptopStoreServer\\Controllers\\ProductController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

@@ -45,8 +45,11 @@
 </div>
 @code {
     Product MyProduct = new();
-
+    string ImageUploadMessage = "";
     async Task HandleSaveProduct()
+    {
+        ShowSaveButton = false;
+    }
 }
 
 

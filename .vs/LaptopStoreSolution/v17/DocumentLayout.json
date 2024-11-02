@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\ThaiVanTinh\\LaptopStore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|d:\\thaivantinh\\laptopstore\\laptopstoreclient\\pages\\addorupdateproductcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|solutionrelative:laptopstoreclient\\pages\\addorupdateproductcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|d:\\thaivantinh\\laptopstore\\laptopstoreclient\\laptopstoreclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D49D4C3A-A61C-4D7C-9B54-9E8EEEFDF48D}|LaptopStoreClient\\LaptopStoreClient.csproj|solutionrelative:laptopstoreclient\\laptopstoreclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|d:\\thaivantinh\\laptopstore\\laptopstoreserver\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4EFD1E29-1DBA-494C-976C-DF38FC2C21CB}|LaptopStoreServer\\LaptopStoreServer.csproj|solutionrelative:laptopstoreserver\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddOrUpdateProductComponent.razor",
+              "DocumentMoniker": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreClient\\Pages\\AddOrUpdateProductComponent.razor",
+              "RelativeDocumentMoniker": "LaptopStoreClient\\Pages\\AddOrUpdateProductComponent.razor",
+              "ToolTip": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreClient\\Pages\\AddOrUpdateProductComponent.razor",
+              "RelativeToolTip": "LaptopStoreClient\\Pages\\AddOrUpdateProductComponent.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T13:41:50.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LaptopStoreClient",
+              "DocumentMoniker": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj",
+              "RelativeDocumentMoniker": "LaptopStoreClient\\LaptopStoreClient.csproj",
+              "ToolTip": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj",
+              "RelativeToolTip": "LaptopStoreClient\\LaptopStoreClient.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-02T13:36:04.401Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -38,19 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductResponstory.cs",
-              "DocumentMoniker": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
-              "RelativeDocumentMoniker": "LaptopStoreServer\\Responstory\\ProductResponstory.cs",
-              "ToolTip": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
-              "RelativeToolTip": "LaptopStoreServer\\Responstory\\ProductResponstory.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwC0AAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:20:45.809Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IProduct.cs",
               "DocumentMoniker": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
               "RelativeDocumentMoniker": "LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
@@ -58,19 +80,33 @@
               "RelativeToolTip": "LaptopStoreSharedLibrary\\Contracts\\IProduct.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T12:18:56.824Z"
+              "WhenOpened": "2024-11-02T12:18:56.824Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "LaptopStoreServer\\Controllers\\ProductController.cs",
               "ToolTip": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Controllers\\ProductController.cs",
               "RelativeToolTip": "LaptopStoreServer\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAABUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-02T12:17:04.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductResponstory.cs",
+              "DocumentMoniker": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
+              "RelativeDocumentMoniker": "LaptopStoreServer\\Responstory\\ProductResponstory.cs",
+              "ToolTip": "D:\\ThaiVanTinh\\LaptopStore\\LaptopStoreServer\\Responstory\\ProductResponstory.cs",
+              "RelativeToolTip": "LaptopStoreServer\\Responstory\\ProductResponstory.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwC0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T12:20:45.809Z",
               "EditorCaption": ""
             }
           ]
