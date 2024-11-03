@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4JELuo9oCOU=",
+  "dgSpecHash": "bszpoQ9MqyFutsFu0Mnz4u7RzJQGtNEkOOEheSRwDCEoCHb+xdInDCFm29K/tu3fuXT9tDPxAnZ5jcc6CBlspA==",
   "success": true,
-  "projectFilePath": "D:\\Thai_Van_Tinh\\NET\\New folder\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj",
+  "projectFilePath": "D:\\Thai_Van_Tinh\\NET\\LaptopStore\\LaptopStoreClient\\LaptopStoreClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tinht\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.10\\microsoft.aspnetcore.authorization.8.0.10.nupkg.sha512",
     "C:\\Users\\tinht\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.10\\microsoft.aspnetcore.components.8.0.10.nupkg.sha512",

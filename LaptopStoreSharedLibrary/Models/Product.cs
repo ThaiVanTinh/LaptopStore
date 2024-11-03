@@ -15,15 +15,13 @@ namespace LaptopStoreSharedLibrary.Models
 
         public int ManufacturerID { get; set; }
         
-<<<<<<< HEAD
+
         [Required, Range(0.1, 99999.99)]
         public string? Manufacturer { get; set; }
         
         [Required]
         public string? ManufacturerName { get; set; }
         
-=======
->>>>>>> 24phut p3
         [Required, Range(1, 99999)]
         public decimal Price { get; set; }
         

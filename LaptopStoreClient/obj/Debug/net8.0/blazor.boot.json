@@ -1,16 +1,12 @@
 {
   "mainAssemblyName": "LaptopStoreClient",
   "resources": {
-<<<<<<< HEAD
-    "hash": "sha256-7kAAvjn2l2d2wv1cZLxE0iDjDeIR2qshwU0qghjUs3M=",
-=======
-    "hash": "sha256-ZL6LWBnZl+FPjyrdAMTrf35Hck4YQWJD/9iFcmnSf04=",
->>>>>>> 24phut p3
+    "hash": "sha256-d/agqIEVMvQK67WrURdnkY4v0hK2KfPXOEY7RO48q4w=",
     "jsModuleNative": {
-      "dotnet.native.8.0.10.niuzg0suou.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
+      "dotnet.native.8.0.10.jch5bmqsqs.js": "sha256-QVxMlY7ohmjgde/bZMA0dlWDAeuUP+tEfkiSdg4DFcE="
     },
     "jsModuleRuntime": {
-      "dotnet.runtime.8.0.10.v1meda7fpe.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
+      "dotnet.runtime.8.0.10.fmiwt8ibjs.js": "sha256-FjrgL9dY6dc2yUoXDWowSfachSgM8O29qUMWDQOJKRI="
     },
     "wasmNative": {
       "dotnet.native.wasm": "sha256-4ymhDbG5daKbi9yL1L574jRRiFFQhiOrDJU5YAYALU4="
@@ -225,21 +221,12 @@
       "mscorlib.wasm": "sha256-KvqZaNpjwhrOuzE4b4aMFsI+VUTyiWfoDI4zn4l9BM8=",
       "netstandard.wasm": "sha256-v+s7sWxtOM6bnOvC0jFrtnm6uMfbDymwl2nHNgbS2LM=",
       "System.Private.CoreLib.wasm": "sha256-pklll63uFQoY6vaD3vbluS9osYiJWLLLmob1yHFgepI=",
-<<<<<<< HEAD
-      "LaptopStoreSharedLibrary.wasm": "sha256-JnMkQpnijahNdJg3jTLeTuiwYhn1IoUkg4PoKI4xUb4=",
-      "LaptopStoreClient.wasm": "sha256-aBqXpL1obkkb6M/BguBXGXiKOH9jR1pqn4rIAe36iq8="
+      "LaptopStoreSharedLibrary.wasm": "sha256-aBhRvmx2zXSctPiABlEIWr4Af/DtdRlE5VhX+RR0zc0=",
+      "LaptopStoreClient.wasm": "sha256-S1uRUdBK09DaawAeIgsLH+jYqwOUyv+afBO9R5OwUJg="
     },
     "pdb": {
-      "LaptopStoreSharedLibrary.pdb": "sha256-Hown8L3DzoYpVl3OSEG5dzbKoXRoKmN1ajteIspIGJA=",
-      "LaptopStoreClient.pdb": "sha256-T2v7F/3NvmTaaiTYyvx3SItrYiP4CjTb6fNA48pr/D8="
-=======
-      "LaptopStoreSharedLibrary.wasm": "sha256-6SRUYOsHQORT6Tp80jXw4eC8iCc7vvZgweXv2sC2QEg=",
-      "LaptopStoreClient.wasm": "sha256-lphsFbTI9G9OM1lgMKLJizPNInGD9j23b5LfGj9zaic="
-    },
-    "pdb": {
-      "LaptopStoreSharedLibrary.pdb": "sha256-8gQm8vt3aY1WPiYZOv1mcJFoUcbCQgP8/LhE/lZPokc=",
-      "LaptopStoreClient.pdb": "sha256-SpKUBcTDKoadFQXwIYw4JW9Qax0QqsKAzU9QKDg2Hkw="
->>>>>>> 24phut p3
+      "LaptopStoreSharedLibrary.pdb": "sha256-KD1RDEek8+xTSeWUmu7mZwIQ6OpEHSWr+9fIiQfcIRU=",
+      "LaptopStoreClient.pdb": "sha256-Pqws2CtlJ1kkRijO/CgTaNSHsvJX1YzvMJkh9bxubg0="
     }
   },
   "cacheBootResources": true,

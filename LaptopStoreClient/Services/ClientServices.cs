@@ -1,8 +1,4 @@
-﻿<<<<<<< HEAD
-=======
-
->>>>>>> 24phut p3
-using LaptopStoreSharedLibrary.Models;
+﻿using LaptopStoreSharedLibrary.Models;
 using LaptopStoreSharedLibrary.Response;
 using System.Text.Json.Serialization;
 using System.Text.Json;

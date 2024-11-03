@@ -549,3 +549,14 @@ D:\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.genruntimeco
 D:\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\ref\LaptopStoreServer.dll
 D:\LaptopStore\LaptopStoreServer\bin\Debug\net8.0\libman.json
 >>>>>>> 24phut p3
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.csproj.AssemblyReference.cache
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.AssemblyInfoInputs.cache
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.AssemblyInfo.cs
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.csproj.CoreCompileInputs.cache
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.MvcApplicationPartsAssemblyInfo.cs
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.MvcApplicationPartsAssemblyInfo.cache
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.sourcelink.json
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.dll
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\refint\LaptopStoreServer.dll
+D:\Thai_Van_Tinh\NET\LaptopStore\LaptopStoreServer\obj\Debug\net8.0\LaptopStoreServer.pdb
