@@ -1,6 +1,6 @@
 using LaptopStoreServer.Data;
-using LaptopStoreServer.Responstory;
-using LaptopStoreSharedLibrary.Contracts;
+using LaptopStoreServer.Repositories;
+//using LaptopStoreSharedLibrary.Contracts;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -15,12 +15,12 @@ builder.Services.AddSwaggerGen();
 
 //Starting
 
-builder.Services.AddDbContext<AppDbContext>(options=>
+builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(builder.Configuration.GetConnectionString("Default") ?? throw new InvalidOperationException("Connection string not found"));
 });
-builder.Services.AddScoped<IProduct, ProductResponstory>();
-
+builder.Services.AddScoped<IProduct, ProductRepository>();
+builder.Services.AddScoped<ICategory, CategoryRepository>();
 
 
 

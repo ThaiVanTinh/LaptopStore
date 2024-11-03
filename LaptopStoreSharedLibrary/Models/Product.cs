@@ -37,6 +37,9 @@ namespace LaptopStoreSharedLibrary.Models
 
         public DateTime DateUpload { get; set; } = DateTime.Now;
 
+         //RelationShip: Many to one
+        public Category? Category { get; set; }
 
+        public int CategoryId { get; set; }
     }
 }

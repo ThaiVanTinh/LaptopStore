@@ -1,5 +1,4 @@
-﻿using LaptopStoreSharedLibrary.Contracts;
-<<<<<<< HEAD
+﻿<<<<<<< HEAD
 =======
 
 >>>>>>> 24phut p3
@@ -10,7 +9,7 @@ using System.Text.Json;
 
 namespace LaptopStoreClient.Services
 {
-    public class ClientServices(HttpClient httpClient) : IProduct
+    public class ClientServices(HttpClient httpClient) : IProductService
     {
         private const string BaseUrl = "api/product";
 

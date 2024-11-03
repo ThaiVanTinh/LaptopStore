@@ -1,7 +1,6 @@
-﻿using LaptopStoreSharedLibrary.Contracts;
-using LaptopStoreSharedLibrary.Models;
+﻿using LaptopStoreSharedLibrary.Models;
 using LaptopStoreSharedLibrary.Response;
-
+using LaptopStoreServer.Repositories;
 using Microsoft.AspNetCore.Mvc;
 
 namespace LaptopStoreServer.Controllers

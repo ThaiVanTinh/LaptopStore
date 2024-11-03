@@ -4,15 +4,11 @@ using LaptopStoreSharedLibrary.Contracts;
 using LaptopStoreServer.Data;
 using Microsoft.EntityFrameworkCore;
 
-namespace LaptopStoreServer.Responstory
+namespace LaptopStoreServer.Repositories
 {
-    public class ProductResponstory : IProduct
+    public class ProductRepository(AppDbContext appDbContext) : IProduct
     {
-        private readonly AppDbContext appDbContext;
-        public ProductResponstory(AppDbContext appDbContext)
-        {
-            this.appDbContext = appDbContext;
-        }
+        private readonly AppDbContext appDbContext = appDbContext;
 
         public async Task<ServiceResponse> AddProDuct(Product model)
         {

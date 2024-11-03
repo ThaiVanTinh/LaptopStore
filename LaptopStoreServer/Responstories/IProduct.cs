@@ -1,7 +1,7 @@
 ﻿using LaptopStoreSharedLibrary.Models;
 using LaptopStoreSharedLibrary.Response;
 
-namespace LaptopStoreSharedLibrary.Contracts
+namespace LaptopStoreServer.Repositories
 {
     public interface IProduct
     {
