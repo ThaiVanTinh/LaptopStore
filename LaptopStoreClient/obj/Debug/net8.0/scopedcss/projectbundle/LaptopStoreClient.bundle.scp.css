@@ -76,6 +76,16 @@ main[b-yz8v4npnu6] {
         padding-right: 1.5rem !important;
     }
 }
+/* /Layout/NavigationBar.razor.rz.scp.css */
+@font-face {
+    font-family: 'MyFont';
+    src: url('../Fonts/vermin.ttf');
+}
+
+#topBar[b-ntvf0k4bbe] {
+    font-family: MyFont;
+    text-align: center;
+}
 /* /Layout/NavMenu.razor.rz.scp.css */
 .navbar-toggler[b-eougk5mm00] {
     background-color: rgba(255, 255, 255, 0.1);

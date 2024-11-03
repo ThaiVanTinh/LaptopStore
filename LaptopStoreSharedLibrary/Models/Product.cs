@@ -12,13 +12,18 @@ namespace LaptopStoreSharedLibrary.Models
         
         [Required]
         public string? Description { get; set; }
+
+        public int ManufacturerID { get; set; }
         
+<<<<<<< HEAD
         [Required, Range(0.1, 99999.99)]
         public string? Manufacturer { get; set; }
         
         [Required]
         public string? ManufacturerName { get; set; }
         
+=======
+>>>>>>> 24phut p3
         [Required, Range(1, 99999)]
         public decimal Price { get; set; }
         
@@ -28,9 +33,9 @@ namespace LaptopStoreSharedLibrary.Models
         [Required, Range(1, 99999)]
         public int Quantity { get; set; }
 
-        public bool Featured { get; set; }
+        public bool Featured { get; set; } = false;
 
-        public DateTime dateUpload { get; set; } = DateTime.Now;
+        public DateTime DateUpload { get; set; } = DateTime.Now;
 
 
     }

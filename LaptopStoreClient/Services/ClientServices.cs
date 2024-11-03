@@ -1,4 +1,8 @@
 ﻿using LaptopStoreSharedLibrary.Contracts;
+<<<<<<< HEAD
+=======
+
+>>>>>>> 24phut p3
 using LaptopStoreSharedLibrary.Models;
 using LaptopStoreSharedLibrary.Response;
 using System.Text.Json.Serialization;

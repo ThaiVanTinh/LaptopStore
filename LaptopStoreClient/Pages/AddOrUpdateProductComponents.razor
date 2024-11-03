@@ -25,7 +25,12 @@
                         <InputTextArea @bind-Value="MyProduct.Description" class="form-control"></InputTextArea>
                     </div>
                     <div class="form-group mt-3">
+<<<<<<< HEAD
                         <label class="form-label @(ImageUploadMessage == ""?"":"text-danger")">
+=======
+                        <label class="form-label">
+                            @(ImageUploadMessage == ""?"":"text-danger")
+>>>>>>> 24phut p3
                             @(ImageUploadMessage == "" ? "Upload Image" : ImageUploadMessage)
                         </label>
                         <InputFile class="form-control" OnChange="UploadImage"></InputFile>
@@ -35,9 +40,14 @@
                     <div class="form-group mt-3">
                         @if (ShowSaveButton)
                         {
+<<<<<<< HEAD
                             <button type="submit" class="btn btn-outline-primary"> 
                                 <i class="fa fa-flus"></i>
                                 Save Product</button>
+=======
+                            <button type="submit" class="btn btn-outline-primary">
+                                <i class="fa fa-flus"></i>Save Product</button>
+>>>>>>> 24phut p3
                         }
                         <BusyButtonComponent ShowBusyButton="ShowBusyButton"></BusyButtonComponent>
                     </div>
@@ -51,7 +61,12 @@
 </div>
 
             
+<<<<<<< HEAD
 <MessageDialog @href="messageDialog"></MessageDialog>
+=======
+
+<MessageDialog @ref="messageDialog"></MessageDialog>
+>>>>>>> 24phut p3
 
 @code {
     Product MyProduct = new();
@@ -68,7 +83,11 @@
             return;
         }
 
+<<<<<<< HEAD
         var (flag, message) = await ProductService.AddProduct(MyProduct);
+=======
+        var (flag, message) = await ClientService.AddProDuct(MyProduct);
+>>>>>>> 24phut p3
         if (flag)
 
             messageDialog!.SetDialogValues("Success", message);
@@ -82,9 +101,15 @@
 
     async Task UploadImage(InputFileChangeEventArgs e)
     {
+<<<<<<< HEAD
         if (e.File.Name.ToLower().Contains(".png"))
         {
             var format = "image/png";
+=======
+        if (e.File.Name.ToLower().Contains(".jpg"))
+        {
+            var format = "image/jpg";
+>>>>>>> 24phut p3
             var resizeImage = await e.File.RequestImageFileAsync(format, 300, 300);
             var buffer = new byte[resizeImage.Size];
             await resizeImage.OpenReadStream().ReadAsync(buffer);
@@ -94,9 +119,16 @@
             imageData = "";
             return;
         }
+<<<<<<< HEAD
         ImageUploadMessage = "PNG file needed";
         return;
     }
+=======
+        ImageUploadMessage = "JPG file needed.";
+        return;
+    }
+
+>>>>>>> 24phut p3
     MessageDialog? messageDialog;
 
     public bool ShowBusyButton { get; set; }
@@ -109,6 +141,10 @@
         ShowSaveButton = !ShowBusyButton;
         StateHasChanged();
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 24phut p3
 }
 
 

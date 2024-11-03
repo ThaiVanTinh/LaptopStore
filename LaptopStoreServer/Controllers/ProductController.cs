@@ -10,6 +10,10 @@ namespace LaptopStoreServer.Controllers
     [ApiController]
     public class ProductController(IProduct productService) : ControllerBase
     {
+<<<<<<< HEAD
+=======
+
+>>>>>>> 24phut p3
         [HttpGet]
         public async Task<ActionResult<List<Product>>> GetAllProducts(bool featured)
         {

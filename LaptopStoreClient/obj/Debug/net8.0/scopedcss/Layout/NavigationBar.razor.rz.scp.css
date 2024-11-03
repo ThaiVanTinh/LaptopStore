@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url('../Fonts/vermin.ttf');
+}
+
+#topBar[b-ntvf0k4bbe] {
+    font-family: MyFont;
+    text-align: center;
+}
